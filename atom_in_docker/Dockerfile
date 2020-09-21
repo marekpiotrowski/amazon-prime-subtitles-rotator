@@ -9,5 +9,5 @@ RUN apt-get install -y curl
 RUN curl -sL https://deb.nodesource.com/setup_12.x | /bin/bash -
 RUN apt-get install -y nodejs
 RUN npm install puppeteer --unsafe-perm=true --allow-root
-RUN apt-get install libgbm-dev
+# RUN apt-get install libgbm-dev
 # RUN apm install markdown-preview-enhanced
